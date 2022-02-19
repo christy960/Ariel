@@ -1,1 +1,1 @@
-web:gunicorn ariel.wsgi --log file -
+web: gunicorn ariel.wsgi --log-file -
