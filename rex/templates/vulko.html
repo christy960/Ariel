@@ -1,16 +1,24 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="{% static 'Css/Cass.css'%}"
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      h1{
+        background-color: aliceblue;
+        text-decoration: double;
+      }
+    </style>
 </head>
 <body>
     <form action="" method="post">
-      <p>login page</p>
+      <h1 style= "color:rgb(34, 7, 7);text-align: left;"><u>login page</u></h1>
       username<input type="text"><br>
-      password<input type="password"><br>
+      password<input type="password"><br><br>
       <input type="submit" >
     </form>
 
