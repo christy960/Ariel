@@ -16,10 +16,48 @@
         text-decoration: double;
       } -->
     </style> 
+  
 
 <script type="text/javascript">
   document.write('Hate You')
+  function fun(){
+    var name="batista"                //alert and confirm box
+    name="universe"
+    alert("wrong password")
+    confirm("pls check ur password")
+  }
+  function fun1(){
+   var w=prompt("enter a no")              //prompt and if statement
+    if (w%2==0) {
+      alert("no divisible by 2")
+    }
+    else {
+      alert("no is not divisible by 2")
+    }
+  }
+    function fun2(){
+      var student= {fname:"richie",lname:"ray",age:20};      //for in loop
+       for (prop in student){
+         console.log(prop + "is" +student[prop]);
+       }
+      }
   </script>
+    <script>
+      for(i=0;i<5; i++){                                  //print 5 stars
+        for (j=0; j<i; j++){
+          document.write("*")
+        }
+        document.write("<br>")
+      }
+      
+        for(i=0;i<5; i++){                                 
+        for (j=0; j<i; j++){                        //for pyramid
+          document.write("  *  ")
+        }
+        document.write("<br>")
+      }
+    </script>
+  
 
 <script src="{% static 'js/script.js'%}"></script>
 
@@ -65,7 +103,11 @@
           </div>
     </div>
     </div>
-       <!-- <button type="button" class="btn btn-primary">Primary</button><br> -->
-<input type="button" onclick="alert('Get lost')" value="Click"  >
+       <!-- <button type="button" class="btn btn-primary">Primary</button><br> -->    <!---- (bootspace button) -->
+
+<input type="button" onclick=fun() value="mess"  ><br><br>
+<input type="button" onclick=fun1() value="if cond"  > <br><br>
+<input type="button" onclick=fun2() value="loop"  ><br><br>
+
 </body>
 </html>
