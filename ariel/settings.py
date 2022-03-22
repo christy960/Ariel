@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'ariel.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydb',
+        'NAME': 'panem',
         'USER': 'postgres',
         'PASSWORD': 'devagiri',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '5433',
     }
 
 }
