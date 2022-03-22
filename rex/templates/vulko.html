@@ -24,8 +24,8 @@
   function fun(){
     var name="batista"                //alert and confirm box
     name="universe"
-    alert("wrong password")
-    confirm("pls check ur password")
+    alert("no value inserted")
+    confirm("pls enter values")
    }
 
   function fun1(){
@@ -53,7 +53,7 @@
       
       if(b==""){
         alert("please enter username")
-        document.getElementById("error").innerHTML="heoll"
+        document.getElementById("error").innerHTML="wrong data"
       }
       if(c=="") {
         alert("please enter password")
@@ -61,7 +61,7 @@
       }    
 
       $(document).ready (function() {
-        $("p").css("background-color","cyan")
+        $("p").css("background-color","cyan")                 //button hide
       });
       $(document).ready (function() {
        $("#btn").click(function() {
@@ -88,9 +88,8 @@
 
 </head>
 <body>
-<p>ewhjgyuyuayuagyudgasudcasdgdasuyuhttdqywdqbuyyue ybqiwyeqyeiye7qt yteq7qiyqiuyqidyid
-  qgdyuqgduyqwdqydqwedqwytdyiqyd78wy7jhfuyfweihfwtqfgutqdhjqhgdyatdhudbHDG78TD  FABDUITd IYH
-  UGWEIYUTGFIUWEYRFIUYWTGGAS UAGDYUAGdjgYUXCUIH OIYYUGKUGHUIH  UKHUKFHSDUYHF AH HUIGUGYGHUDFG DFHHUIDFHUVG 
+<p>best of <br>
+  both worlds
 </p>
 
  
@@ -131,10 +130,10 @@
 
        <!-- <button type="button" class="btn btn-primary">Primary</button><br> -->    <!---- (bootspace button) -->
 
-<input type="button" onclick=fun() value="mess"  ><br><br>
-<input type="button" onclick=fun1() value="if cond"  > <br><br>            <!---- (button insertion) -->
-<input type="button" onclick=fun2() value="loop"  ><br><br>
-<input type="button" id="btn" value="vali">
+<input type="button" onclick=fun() value="Mess"  ><br><br>
+<input type="button" onclick=fun1() value="If cond"  > <br><br>            <!---- (button insertion) -->
+<input type="button" onclick=fun2() value="Loop"  ><br><br>
+<input type="button" id="btn" value="Hide">
 
 </body>
 </html>
