@@ -7,15 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/test" method="post">
+    <form action="/login/" method="post">
         {% csrf_token %}
-        <input type="text" name="fullname" value="fullname"><br><br>
-        <input type="text" name="address" value="address"><br><br>
-       Age<input type="number" name="age" ><br><br>
         <input type="text" name="username" value="username"><br><br>
         <input type="password" name="password" placeholder="password"><br><br>
-        <input type="submit" value="Submit">
-    
-    </form>
+        <input type="submit" name="login" value="login">
+        <div>{{status}}</div>
 </body>
 </html>
